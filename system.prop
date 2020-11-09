@@ -40,6 +40,7 @@ ro.com.google.ime.kb_pad_port_l=7
 ro.com.google.ime.kb_pad_port_r=7
 ro.com.google.ime.kb_pad_land_l=14
 ro.com.google.ime.kb_pad_land_r=14
+ro.com.google.ime.kb_pad_port_b=1
 
 # GPS
 persist.vendor.overlay.izat.optin=rro
@@ -54,9 +55,6 @@ ro.opengles.version=196610
 
 # HWC
 debug.sf.enable_hwc_vds=1
-
-#GBoard
-ro.com.google.ime.kb_pad_port_b=1
 
 # IMS
 persist.dbg.volte_avail_ovr=1
