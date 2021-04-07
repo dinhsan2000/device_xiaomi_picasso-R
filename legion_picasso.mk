@@ -28,6 +28,14 @@ TARGET_SUPPORT_FACE_UNLOCK := true
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# GApps
+CURRENT_BUILD_TYPE := gapps
+WITH_GAPPS := true
+IS_PHONE := true
+TARGET_GAPPS_ARCH := arm64
+TARGET_SHIPS_SEPERATE_GAPPS_BUILD := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+
 # LegionOS maintainter
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.maintainer.name=masemoel
