@@ -42,3 +42,13 @@ persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
 persist.sys.fflag.override.settings_network_and_internet_v2=true
+
+ro.vendor.radio.features_common=3
+ro.config.gnss.support=GPS,NavIC,BeiDou,GLONASS,Galileo
+
+# IZat OptInApp overlay
+persist.vendor.overlay.izat.optin=rro
+
+# Backup NTP Server
+persist.backup.ntpServer="0.pool.ntp.org"
+persist.timed.enable=true
