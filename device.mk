@@ -213,8 +213,7 @@ PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 PRODUCT_PACKAGES += \
     init.mi_thermald.rc \
     init.qcom.rc \
-    init.recovery.qcom.rc \
-    init.smartcharging.rc
+    init.recovery.qcom.rc
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
